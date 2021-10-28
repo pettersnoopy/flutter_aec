@@ -9,7 +9,7 @@ import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 
 /** FlutterAesPlugin */
-public class FlutterAesPlugin implements MethodCallHandler {
+public class FlutterAesPlugin implements FlutterPlugin, MethodCallHandler {
   /** Plugin registration. */
   private MethodChannel channel;
 
